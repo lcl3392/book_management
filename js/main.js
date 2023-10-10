@@ -20,8 +20,6 @@
         }
     }
 
- 
-
     class BookUI {
         getData(){
             data = JSON.parse(localStorage.getItem("data")) || []
