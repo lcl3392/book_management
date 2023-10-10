@@ -122,9 +122,8 @@
     $tbody.addEventListener('click', e => {
         const bookUI = new BookUI()
         bookUI.del( e.target )
-        // bookUI.showMessage('북리스트에 정상삭제완료' , 'on') 
     })
 
-    // localStorage.clear()
+    localStorage.clear()
 
 })();
